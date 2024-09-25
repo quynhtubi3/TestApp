@@ -1,0 +1,15 @@
+﻿[25/09/24 15:21:29] info: Program: Starting Squirrel Updater: --releasify C:\Users\RPSoft\source\repos\TestApp\bin\Release\TestApp.exe --releaseDir D:\TestApp
+[25/09/24 15:21:29] info: Program: Bootstrapper EXE found at:C:\Users\RPSoft\source\repos\TestApp\packages\Squirrel.Windows.2.0.1\tools\Setup.exe
+[25/09/24 15:21:29] fatal: Finished with unhandled exception: System.InvalidOperationException: Source sequence doesn't contain any elements.
+   at Squirrel.EnumerableExtensions.ExtremaBy[TSource,TKey](IEnumerable`1 source, Func`2 keySelector, Func`3 compare)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, Boolean packageAs64Bit, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+[25/09/24 15:24:09] info: Program: Starting Squirrel Updater: --releasify C:\Users\RPSoft\source\repos\TestApp\TestApp.0.0.0.nupkg --releaseDir D:\TestApp
+[25/09/24 15:24:09] info: Program: Bootstrapper EXE found at:C:\Users\RPSoft\source\repos\TestApp\packages\Squirrel.Windows.2.0.1\tools\Setup.exe
+[25/09/24 15:24:09] info: Program: Creating release package: D:\TestApp\TestApp.0.0.0.nupkg
+[25/09/24 15:24:09] info: ReleasePackage: Creating release package: D:\TestApp\TestApp.0.0.0.nupkg => D:\TestApp\TestApp-0.0.0-full.nupkg
+[25/09/24 15:24:10] info: ReleasePackage: Extracting dependent packages: []
+[25/09/24 15:24:10] info: ReleasePackage: Removing unnecessary data
+[25/09/24 15:24:11] info: Program: Building embedded zip file for Setup.exe
+[25/09/24 15:24:15] info: Program: Finished Squirrel Updater
